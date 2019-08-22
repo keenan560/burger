@@ -14,4 +14,5 @@ connection.query('SELECT * FROM burgers', function (error, results, fields) {
     console.log('The solution is: ', results);
 });
 
+
 module.exports = connection;
