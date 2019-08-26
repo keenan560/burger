@@ -3,6 +3,7 @@ const app = express();
 
 const connection = require("./config/connection");
 const port = 3000;
+require("express-handlebars");
 
 
 
